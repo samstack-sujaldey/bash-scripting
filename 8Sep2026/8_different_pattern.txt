@@ -1,0 +1,7 @@
+Hello,
+Please reach out to john.doe@example.com for the report.
+CC: jane_smith+work@company.co.in and bob.jones-2024@sub.domain.org
+The previous owner was old.email@legacy.net but it's no longer active.
+Contact support@my-site.com or ADMIN@MY-SITE.COM for help.
+No email on this line.
+Multiple on one line: a.b@c.com, x_y.z@test-domain.io, first.last@university.ac.in   

@@ -1,0 +1,10 @@
+Fri Sep 11 10:56:35 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 /var/log/auth.log
+Fri Sep 11 10:56:35 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 /var/log/auth.log
+Fri Sep 11 10:56:35 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 /var/log/auth.log
+Fri Sep 11 10:56:35 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 /var/log/auth.log
+Fri Sep 11 10:56:35 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 /var/log/auth.log
+Fri Sep 11 10:57:43 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 tee -a /var/log/auth.log
+Fri Sep 11 10:57:43 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 tee -a /var/log/auth.log
+Fri Sep 11 10:57:43 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 tee -a /var/log/auth.log
+Fri Sep 11 10:57:43 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 tee -a /var/log/auth.log
+Fri Sep 11 10:57:43 IST 2026 host sshd[9999]: Failed password for invalid user admin from 1.2.3.4 port 22 ssh2 tee -a /var/log/auth.log

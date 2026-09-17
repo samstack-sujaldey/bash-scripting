@@ -1,0 +1,4 @@
+https://google.com
+https://amazon.com
+https://upmyteam.com
+https://api.upmyteam.com
