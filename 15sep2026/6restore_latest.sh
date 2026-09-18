@@ -9,3 +9,6 @@ echo "Latest : $file"
 gunzip -c "$file" | sudo mysql -u root "$DB"
 
 echo "Unzipping Done"
+
+# run : ./6restore_latest.sh
+# then -> backup

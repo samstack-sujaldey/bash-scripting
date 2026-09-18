@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Enter file name : " FILE 
+read -p "Enter file name : " FILE
 read -p "Enter the record type (default A) : " RECORD
 
 if [[ -z "$FILE" || ! -f "$FILE" ]]; then
@@ -8,7 +8,7 @@ if [[ -z "$FILE" || ! -f "$FILE" ]]; then
   exit 1
 fi
 
-while IFS= read -r domain; do 
+while IFS= read -r domain; do
 
   if [[ -z "$domain" || "$domain" == \#* ]]; then
     continue
@@ -24,4 +24,7 @@ while IFS= read -r domain; do
     echo "No Result"
   fi
 
-done < "$FILE"
+done <"$FILE"
+
+# run : ./5_DNS_lookup.sh
+# then -> 5_domain.txt

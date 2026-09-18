@@ -11,3 +11,6 @@ echo "Downloading..."
 wget -i "$FILE"
 
 echo "Done"
+
+# run : ./7_domains.txt
+# then -> 7_domains.txt

@@ -1,5 +1,5 @@
-project/src
-project/src/components
-project/src/utils
-project/tests
-project/docs
+projects/src
+projects/src/components
+projects/src/utils
+projects/tests
+projects/docs

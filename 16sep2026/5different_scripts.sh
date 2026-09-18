@@ -9,3 +9,5 @@ if [[ "$day" -gt 0 && "$day" -lt 6 ]]; then
 else
   echo "this is logic 2"
 fi
+
+# run : ./5different_scripts.sh

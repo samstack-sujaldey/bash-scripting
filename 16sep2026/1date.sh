@@ -22,3 +22,5 @@ echo
 
 echo "##### Ordinal #####"
 date +%Y_%j
+
+# run : ./1date.sh

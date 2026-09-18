@@ -4,7 +4,7 @@ read -p "Enter file name : " FILE
 
 if [[ -z "$FILE" || ! -f "$FILE" ]]; then
   echo "Either file empty or not present"
-fi 
+fi
 
 while IFS= read -r domain; do
   if [[ -z "$domain" || "$domain" == \#* ]]; then
@@ -18,4 +18,6 @@ while IFS= read -r domain; do
     echo "$result"
   fi
 
-done < "$FILE"
+done <"$FILE"
+
+# run : ./3fetch_header.sh

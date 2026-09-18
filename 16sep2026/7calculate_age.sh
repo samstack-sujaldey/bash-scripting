@@ -24,3 +24,5 @@ days_in_sec=$(date -d "$DOB +$years years +$months months" +%s)
 day=$((($(date -d "$TODAY" +%s) - days_in_sec) / 86400))
 
 echo "AGE: $years years, $months months, $day days"
+
+# run : ./7calculate_age.sh

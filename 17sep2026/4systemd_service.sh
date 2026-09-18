@@ -13,7 +13,7 @@ stop)
   sudo systemctl stop "$SERVICE"
   ;;
 status)
-  sudo systemctl status "$SERVICE"
+  sudo systemctl is-active "$SERVICE"
   ;;
 enable)
   sudo systemctl enable "$SERVICE"
@@ -21,7 +21,14 @@ enable)
 disable)
   sudo systemctl disable "$SERVICE"
   ;;
+restart)
+  sudo systemctl restart "$SERVICE"
+  ;;
 *)
   echo "Either $arg or $SERVICE not found."
   ;;
 esac
+
+# run : ./4systemd_service.sh
+# then -> nginx
+# then -> [ stop or start ...]

@@ -9,3 +9,8 @@ if [[ $confirmation == "y" || $confirmation == "Y" ]]; then
 else
   echo "Aborted"
 fi
+
+# run first -> ./3cpu_ram_usage.sh &
+# then -> ./5kill_process.sh
+# -> 3cpu_ram_usage
+# -> y

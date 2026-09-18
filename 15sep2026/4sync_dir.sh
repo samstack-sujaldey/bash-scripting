@@ -26,3 +26,8 @@ for f in $all_files; do
     echo "Appended: $f (form $DIR2)"
   fi
 done
+
+# run : ./4sync_dir.sh
+# then -> dir1
+# then -> dir2
+# then -> dir3

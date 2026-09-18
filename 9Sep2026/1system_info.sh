@@ -27,3 +27,5 @@ echo
 
 echo "########## UPTIME ##########"
 uptime -p | sed 's/up //g'
+
+# run : ./1system_info.sh

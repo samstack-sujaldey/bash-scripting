@@ -21,9 +21,11 @@ awk -F"," 'NR==1 {
 
   printf "}"
 
-}' "$FILE" | jq -s . > output.json
+}' "$FILE" | jq -s . >output.json
 
 echo "################################"
-echo "JSON file created : output.json" 
+echo "JSON file created : output.json"
 echo "################################"
 cat output.json
+
+# run : ./csvtojson.sh

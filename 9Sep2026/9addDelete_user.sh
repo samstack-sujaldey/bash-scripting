@@ -1,9 +1,9 @@
 #!/bin/bash
 
-add_user(){
+add_user() {
   local username=$1
 
-  if id "$username" &>/dev/null ;then
+  if id "$username" &>/dev/null; then
     echo "User already exist"
     return 1
   fi
@@ -17,10 +17,10 @@ add_user(){
 
 }
 
-remove_user(){
+remove_user() {
   local username=$1
 
-  if ! id "$username" &>/dev/null ;then
+  if ! id "$username" &>/dev/null; then
     echo "User do not exist"
     return 1
   fi
@@ -48,14 +48,18 @@ ACTION=$1
 USERNAME=$2
 
 case "$ACTION" in
-  add)
-    add_user "$USERNAME"
-    ;;
-  remove)
-    remove_user "$USERNAME"
-    ;;
-  *)
-    echo "Invalid action. Please use a valid action."
-    exit 1
-    ;;
-  esac
+add)
+  add_user "$USERNAME"
+  ;;
+remove)
+  remove_user "$USERNAME"
+  ;;
+*)
+  echo "Invalid action. Please use a valid action."
+  exit 1
+  ;;
+esac
+
+# run : ./9addDelete_user.sh add test
+#               or
+# run : ./9addDelete_user.sh remove test

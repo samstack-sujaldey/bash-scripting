@@ -7,3 +7,6 @@ if dpkg-query -W -f='${Status}' "$PACKAGE" 2>/dev/null | grep -q "install ok ins
 else
   sudo apt install "$PACKAGE" -y
 fi
+
+# run : ./1check_package.sh
+# then -> wcalc

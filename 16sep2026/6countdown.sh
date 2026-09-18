@@ -18,3 +18,6 @@ while [[ "$total_sec" != 0 ]]; do
     echo "$total_sec sec"
   fi
 done
+
+# run : ./6countdown.sh
+# then -> 0.20 for 20 seconds

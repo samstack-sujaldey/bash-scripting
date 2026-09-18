@@ -12,3 +12,7 @@ if [[ days -gt 0 ]]; then
 else
   echo $((-days))
 fi
+
+# run : ./2find_days.sh
+# then -> 18 sep 2026
+# then -> 8 sep 2026

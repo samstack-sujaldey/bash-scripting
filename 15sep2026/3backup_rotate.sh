@@ -10,3 +10,6 @@ if [[ "$confirm" == [yY] ]]; then
   echo "$files" | xargs -r rm --
   echo "##### DELETED #####"
 fi
+
+# run : ./3backup_rotate.sh
+# then -> ./backup

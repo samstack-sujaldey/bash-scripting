@@ -10,3 +10,6 @@ else
   sudo apt upgrade -y 2>/dev/null | tee -a "$LOGFILE"
   sudo apt autoremove -y 2>/dev/null | tee -a "$LOGFILE"
 fi
+
+# run : ./3update_upgrade.sh
+# run : ls /tmp/
