@@ -8,7 +8,7 @@
 #  mkdir -p "$ext"
 #
 #  mv $file "$ext/"
-#done 
+#done
 
 find . -type f | while read -r file; do
   filename=$(basename $file)
@@ -20,3 +20,5 @@ find . -type f | while read -r file; do
   mv $filename "$ext/"
 
 done
+
+# run : ./file_organizer.sh

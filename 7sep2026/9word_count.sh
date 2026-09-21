@@ -8,3 +8,5 @@ for file in $folderpath/*; do
   res=$(wc "$file")
   echo "$res"
 done
+
+# run : ./9word_count.sh checking/

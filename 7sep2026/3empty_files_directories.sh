@@ -4,7 +4,7 @@ FILEPATH=$1
 
 result=$(find $FILEPATH -empty -printf '%f\n' -delete)
 
-if [[ -z $result ]]; then 
+if [[ -z $result ]]; then
   echo "Files and Directories are not empty"
 else
   echo "#############"
@@ -12,3 +12,5 @@ else
   echo "#############"
   echo "$result"
 fi
+
+# run : ./3empty_files_directories.sh .
